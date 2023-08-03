@@ -40,7 +40,7 @@ jinja2.exceptions.TemplateNotFound: index.html
 переместить их в соответствующие каталоги: стили в static/css, а
 изображения — в static/image. В самом html проверить путь к файлам:
 <link rel="stylesheet" href="/static/css/style.css">
-<img src="/static/image/foto.png" alt="Моё фото" width="300">
+<image src="/static/image/foto.png" alt="Моё фото" width="300">
 После очередной перезагрузки сервера мы получим полноценную html-страницу"""
 
 if __name__ == '__main__':

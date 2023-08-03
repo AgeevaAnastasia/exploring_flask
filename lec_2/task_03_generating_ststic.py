@@ -33,7 +33,7 @@ if __name__ == '__main__':
 <body>
 <h1 class="text-monospace">Привет, меня зовут {{ name }}</h1>
 5
-<img src="/static/image/foto.jpg" alt="Моё фото" width="300">
+<image src="/static/image/foto.jpg" alt="Моё фото" width="300">
 <p class="text-body text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing
 elit. Ad cupiditate doloribus ducimus nam provident quo similique! Accusantium
 aperiam fugit magnam quas reprehenderit sapiente temporibus voluptatum!</p>
@@ -46,7 +46,7 @@ aperiam fugit magnam quas reprehenderit sapiente temporibus voluptatum!</p>
 ...
 <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
 ...
-<img src="{{ url_for('static', filename='image/foto.jpg') }}" alt="Моё фото"
+<image src="{{ url_for('static', filename='image/foto.jpg') }}" alt="Моё фото"
 width="300">
 ...
 <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>

@@ -23,8 +23,8 @@ class="nav-link">Данные</a></li>
 <div class="row">
 <h1 class="col-12 col-md-6 display-2">Привет, меня зовут
 Алексей</h1>
-<img src="/static/image/foto.jpg" class="col-12 col-md-6
-img-fluid rounded-circle" alt="Моё фото">
+<image src="/static/image/foto.jpg" class="col-12 col-md-6
+image-fluid rounded-circle" alt="Моё фото">
 </div>
 <div class="row fixed-bottom modal-footer">
 <hr>
@@ -191,9 +191,9 @@ class="nav-link">Данные</a></li>
 <div class="row">
 <h1 class="col-12 col-md-6 display-2">Привет, меня зовут
 Алексей</h1>
-<img src="/static/image/foto.jpg" class="col-12 col-md-6
+<image src="/static/image/foto.jpg" class="col-12 col-md-6
 20
-img-fluid rounded-circle" alt="Моё фото">
+image-fluid rounded-circle" alt="Моё фото">
 </div>
 {% endblock %}
 

@@ -57,8 +57,8 @@ def get_cookies():
 <div class="row">
 <h1 class="col-12 col-md-6 display-2">Привет, меня зовут
 {{ name }}</h1>
-<img src="/static/image/foto.jpg" class="col-12 col-md-6
-img-fluid rounded-circle" alt="Моё фото">
+<image src="/static/image/foto.jpg" class="col-12 col-md-6
+image-fluid rounded-circle" alt="Моё фото">
 </div>
 {% endblock %}
 
