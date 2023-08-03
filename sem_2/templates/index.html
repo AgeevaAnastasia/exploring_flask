@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Меню</title>
+</head>
+<body>
+
+<div>
+    <a href="{{ url_for('hello1') }}">
+        <button type="submit">
+            Привет
+        </button>
+    </a>
+
+    <a href="{{ url_for('uploads') }}">
+        <button type="submit">
+            Изображение
+        </button>
+    </a>
+
+    <a href="{{ url_for('login') }}">
+        <button type="submit">
+            Войти с паролем
+        </button>
+    </a>
+
+    <a href="{{ url_for('text') }}">
+        <button type="submit">
+            Посчитать слова
+        </button>
+    </a>
+
+     <a href="{{ url_for('calk') }}">
+        <button type="submit">
+            Простой калькулятор
+        </button>
+    </a>
+
+    <a href="{{ url_for('age') }}">
+        <button type="submit">
+            Проверка возраста
+        </button>
+    </a>
+
+    <a href="{{ url_for('square') }}">
+        <button type="submit">
+            Возведение в квадрат
+        </button>
+    </a>
+
+     <a href="{{ url_for('form') }}">
+        <button type="submit">
+            Поприветствуем нашего гостя
+        </button>
+    </a>
+
+
+
+
+</div>
+
+</body>
+</html>
