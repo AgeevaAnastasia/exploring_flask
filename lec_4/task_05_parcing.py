@@ -25,7 +25,7 @@ for url in urls:
     filename = 'sync_' + url.replace('https://', '').replace('.', '_').replace('/', '') + '.html'
     with open(filename, "w", encoding='utf-8') as f:
         f.write(response.text)
-        print(f"Downloaded {url} in {time.time() - start_time:.2f} seconds")
+    print(f"Downloaded {url} in {time.time() - start_time:.2f} seconds")
 
 
 """В данном примере мы используем библиотеку requests для получения
@@ -56,7 +56,7 @@ def download(url):
     filename = 'threading_' + url.replace('https://', '').replace('.', '_').replace('/', '') + '.html'
     with open(filename, "w", encoding='utf-8') as f:
         f.write(response.text)
-        print(f"Downloaded {url} in {time.time() - start_time:.2f} seconds")
+    print(f"Downloaded {url} in {time.time() - start_time:.2f} seconds")
 
 
 threads = []
@@ -98,7 +98,7 @@ def download(url):
     filename = 'multiprocessing_' + url.replace('https://', '').replace('.', '_').replace('/', '') + '.html'
     with open(filename, "w", encoding='utf-8') as f:
         f.write(response.text)
-        print(f"Downloaded {url} in {time.time() - start_time:.2f} seconds")
+    print(f"Downloaded {url} in {time.time() - start_time:.2f} seconds")
 
 
 processes = []
